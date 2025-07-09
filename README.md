@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+# Practice Smart Contract (Simple FundRaiser)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project is done as a review of smart contract development basics.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+This is a simple wallet smart contract that lets the owner start a fundraiser and withdraw the gathered funds. Also allows users to donate and refund their donations.
